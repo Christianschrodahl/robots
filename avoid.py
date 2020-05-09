@@ -12,7 +12,7 @@ robot = CamJamKitRobot()
 sensor = DistanceSensor(echo=pinecho, trigger=pintrigger)
 
 # Distance Variables
-hownear = 15.0
+hownear = 20.0
 reversetime = 0.5
 turntime = 0.75
 
@@ -20,8 +20,8 @@ turntime = 0.75
 leftmotorspeed = 0.5
 rightmotorspeed = 0.5
 
-motorforward = (leftmotorspeed, rightmotorspeed)
-motorbackward = (-leftmotorspeed, -rightmotorspeed)
+motorforward = (-leftmotorspeed, -rightmotorspeed)
+motorbackward = (leftmotorspeed, rightmotorspeed)
 motorleft = (leftmotorspeed, 0)
 motorright = (0, rightmotorspeed)
 
