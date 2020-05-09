@@ -52,8 +52,7 @@ def avoidobstacle():
     time.sleep(turntime)
     robot.stop()
 
-import keyboard
-print(keyboard)
+
 # Your code to control the robot goes below this line
 try:
     # repeat the next indented block forever
