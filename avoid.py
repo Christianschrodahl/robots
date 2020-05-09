@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 # CamJam EduKit 3 - Robotics
 # Worksheet 9 - Obstacle Avoidance
 
