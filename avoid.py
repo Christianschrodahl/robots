@@ -53,17 +53,13 @@ def avoidobstacle():
     robot.stop()
 
 import keyboard
-
+print(keyboard)
 # Your code to control the robot goes below this line
 try:
     # repeat the next indented block forever
     while True:
-        print(keyboard.press_and_release())
-        char = keyboard.press_and_release()
         robot.value = motorforward
         time.sleep(0.1)
-        if(char == "q"):
-            print("Q is pressed")
 
         if isnearobstacle(hownear):
             robot.stop()
