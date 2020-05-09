@@ -53,8 +53,8 @@ turntime = 0.75
 leftmotorspeed = 0.5
 rightmotorspeed = 0.5
 
-motorforward = (leftmotorspeed, rightmotorspeed)
-motorbackward = (-leftmotorspeed, -rightmotorspeed)
+motorforward = (-leftmotorspeed, -rightmotorspeed)
+motorbackward = (leftmotorspeed, rightmotorspeed)
 motorleft = (leftmotorspeed, 0)
 motorright = (0, rightmotorspeed)
 
