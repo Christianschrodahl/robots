@@ -58,7 +58,7 @@ import keyboard
 try:
     # repeat the next indented block forever
     while True:
-        PRINT(keyboard.press_and_release())
+        print(keyboard.press_and_release())
         char = keyboard.press_and_release()
         robot.value = motorforward
         time.sleep(0.1)
